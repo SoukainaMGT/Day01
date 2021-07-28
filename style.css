@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.parent{
+    width: 900px;
+    height: 500px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid gray;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -450px;
+
+
+
+}
+/***start welcome */
+.parent .welcome{
+    width: 50%;
+    height: 500px;
+    background-color: darkorange;
+    float: right;
+}
+.parent .welcome .welcome-content{
+    width: 300px;
+    padding: 30px 0px;
+    text-align: center;
+    color: #fff;
+    margin: 162px auto 0px auto;
+    text-transform: capitalize;
+}
+.parent .welcome .welcome-content p{
+    margin:  20px 0px;
+}
+
+.parent .welcome .welcome-content button{
+    padding: 7px 30px;
+    background-color: none;
+    border-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+
+}
+/*end welcome*/
+
+
+.parent .login{
+    width: 50%;
+    height: 500px;
+    background-color: honeydew;
+}
